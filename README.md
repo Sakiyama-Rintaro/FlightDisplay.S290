@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="file:///C:/Users/tubas/Downloads/s280.jpg" title="s-270logo" width="450px">
+    <img src="https://github.com/user-attachments/assets/68660c8d-c4d9-4e0b-9aec-190955e87da9" title="s-270logo" width="450px">
 </div>
 
 # S-270フライトディスプレイ備忘録 兼 引き継ぎ資料
