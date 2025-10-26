@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://github.com/sin0111/tbt.denso.21st/blob/master/material/s-270logo.jpg" title="s-270logo" width="450px">
+    <img src="file:///C:/Users/tubas/Downloads/s280.jpg" title="s-270logo" width="450px">
 </div>
 
 # S-270フライトディスプレイ備忘録 兼 引き継ぎ資料
