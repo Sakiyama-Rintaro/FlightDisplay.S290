@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">mbed連携アプリ 1.0.0</string>
+    <string name="title_rx">Rx</string>
+    <string name="sen_rx">mbedから受信したデータを表示します</string>
+</resources>

@@ -1,0 +1,63 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "cx.bird.tbt.flightdisplayfors270malus"
+        minSdkVersion 26
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+
+}
+
+dependencies {
+
+    //noinspection GradleDependency
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.core:core-ktx:1.3.2'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'com.github.mik3y:usb-serial-for-android:3.3.3' //シリアル通信
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0' //グラフ
+    implementation 'com.esri.arcgisruntime:arcgis-android:100.10.0' //ArcGIS
+    implementation("org.mariadb.jdbc:mariadb-java-client:2.4.4") //DB
+    implementation 'org.jetbrains.exposed:exposed-core:0.30.1' //DB
+    implementation 'org.jetbrains.exposed:exposed-dao:0.30.1' //DB
+    implementation 'org.jetbrains.exposed:exposed-jdbc:0.30.1' //DB
+    implementation 'org.jetbrains.exposed:exposed-jodatime:0.30.1' //DB
+    // for H2
+    implementation("com.h2database:h2:1.4.199") //DB
+    // for logging (StdOutSqlLogger), see
+    // http://www.slf4j.org/codes.html#StaticLoggerBinder
+    implementation("org.slf4j:slf4j-nop:1.7.30") //DB
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>test</name>
+    <open>1</open>
+    <Placemark>
+        <styleUrl>#line</styleUrl><!--lineのidを使ってスタイリング-->
+        <LineString><!--ラインを作成する。-->
+            <tessellate>1</tessellate>
+            <coordinates><!--ラインの頂点を作成する。-->
+                136.25674,35.2952
+                136.23783,35.29962
+                136.20997,35.31148
+                136.18872,35.31899
+            </coordinates>
+        </LineString>
+    </Placemark>
+</Document>
+</kml>

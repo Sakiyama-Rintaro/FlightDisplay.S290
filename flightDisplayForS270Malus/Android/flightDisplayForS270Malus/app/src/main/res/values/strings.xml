@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">みちびき for Malus</string>
+    <string name="dbFailure">DBから切断されています</string>
+    <string name="dbSuccess">DBに接続されています</string>
+</resources>

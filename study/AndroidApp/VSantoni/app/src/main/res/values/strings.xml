@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">VSantoni</string>
+    <string name="msg_1">あなたの名前を入力してね</string>
+    <string name="player_name">アンコニペラペラ</string>
+    <string name="start">始める</string>
+    <string name="attack">攻撃</string>
+    <string name="defense">防御</string>
+    <string name="escape">逃走</string>
+    <string name="player_hp">100</string>
+    <string name="player_status">正常</string>
+    <string name="antoni_hp">100</string>
+    <string name="antoni_status">正常</string>
+
+</resources>

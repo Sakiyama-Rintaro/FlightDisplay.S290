@@ -1,0 +1,386 @@
+2021-02-22 02:10:40.467 13164-13164/? I/erialconanddra: Late-enabling -Xcheck:jni
+2021-02-22 02:10:40.509 13164-13164/? E/erialconanddra: Unknown bits set in runtime_flags: 0x8000
+2021-02-22 02:10:41.069 13164-13164/cx.bird.tbt.serialconanddraw I/Perf: Connecting to perf service.
+2021-02-22 02:10:41.085 13164-13195/cx.bird.tbt.serialconanddraw E/Perf: Fail to get file list cx.bird.tbt.serialconanddraw
+2021-02-22 02:10:41.086 13164-13195/cx.bird.tbt.serialconanddraw E/Perf: getFolderSize() : Exception_1 = java.lang.NullPointerException: Attempt to get length of null array
+2021-02-22 02:10:41.086 13164-13195/cx.bird.tbt.serialconanddraw E/Perf: Fail to get file list cx.bird.tbt.serialconanddraw
+2021-02-22 02:10:41.086 13164-13195/cx.bird.tbt.serialconanddraw E/Perf: getFolderSize() : Exception_1 = java.lang.NullPointerException: Attempt to get length of null array
+2021-02-22 02:10:41.369 13164-13164/cx.bird.tbt.serialconanddraw W/erialconanddra: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+2021-02-22 02:10:41.371 13164-13164/cx.bird.tbt.serialconanddraw W/erialconanddra: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+2021-02-22 02:10:41.769 13164-13196/cx.bird.tbt.serialconanddraw I/AdrenoGLES: QUALCOMM build                   : 7331a27, Ieeb4a86f7b
+    Build Date                       : 11/13/19
+    OpenGL ES Shader Compiler Version: EV031.27.05.02
+    Local Branch                     : 
+    Remote Branch                    : 
+    Remote Branch                    : 
+    Reconstruct Branch               : 
+2021-02-22 02:10:41.770 13164-13196/cx.bird.tbt.serialconanddraw I/AdrenoGLES: Build Config                     : S L 8.0.12 AArch64
+2021-02-22 02:10:41.778 13164-13196/cx.bird.tbt.serialconanddraw I/AdrenoGLES: PFP: 0x005ff112, ME: 0x005ff066
+2021-02-22 02:10:41.774 13164-13164/cx.bird.tbt.serialconanddraw W/RenderThread: type=1400 audit(0.0:9935): avc: denied { search } for name="kgsl-3d0" dev="sysfs" ino=23363 scontext=u:r:untrusted_app:s0:c161,c256,c512,c768 tcontext=u:object_r:sysfs_kgsl:s0 tclass=dir permissive=0
+2021-02-22 02:10:41.783 13164-13196/cx.bird.tbt.serialconanddraw W/AdrenoUtils: <ReadGpuID_from_sysfs:194>: Failed to open /sys/class/kgsl/kgsl-3d0/gpu_model
+2021-02-22 02:10:41.783 13164-13196/cx.bird.tbt.serialconanddraw W/AdrenoUtils: <ReadGpuID:218>: Failed to read chip ID from gpu_model. Fallback to use the GSL path
+2021-02-22 02:10:41.859 13164-13196/cx.bird.tbt.serialconanddraw W/Gralloc3: mapper 3.x is not supported
+2021-02-22 02:10:44.204 13164-13164/cx.bird.tbt.serialconanddraw I/TAG: cone
+2021-02-22 02:10:44.204 13164-13164/cx.bird.tbt.serialconanddraw I/TAG: Connected
+2021-02-22 02:10:44.241 13164-13164/cx.bird.tbt.serialconanddraw D/UsbRequestJNI: init
+2021-02-22 02:10:44.246 13164-13164/cx.bird.tbt.serialconanddraw D/FtdiSerialPort: baud rate=9600, effective=9600, error=0.0%, value=0x4138, index=0x0000, divisor=312, subdivisor=4
+2021-02-22 02:10:44.627 13164-13164/cx.bird.tbt.serialconanddraw I/TAG: read
+2021-02-22 02:10:44.884 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 4
+2021-02-22 02:10:45.137 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 7
+2021-02-22 02:10:45.187 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,0,1,0,1
+2021-02-22 02:10:45.345 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00001
+2021-02-22 02:10:47.131 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:10:47.132 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,0,3,0,3
+2021-02-22 02:10:47.142 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00003
+2021-02-22 02:10:47.913 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:10:47.914 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,0,4,0,4
+2021-02-22 02:10:47.922 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00004
+2021-02-22 02:10:48.951 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:10:48.952 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,0,5,0,5
+2021-02-22 02:10:48.966 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00005
+2021-02-22 02:10:49.991 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:10:49.992 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,0,6,0,6
+2021-02-22 02:10:50.003 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00006
+2021-02-22 02:10:51.033 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:10:51.034 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,0,7,0,7
+2021-02-22 02:10:51.043 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00007
+2021-02-22 02:10:52.073 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:10:52.074 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,0,8,0,8
+2021-02-22 02:10:52.084 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00008
+2021-02-22 02:10:53.112 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:10:53.113 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,0,9,0,9
+2021-02-22 02:10:53.122 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00009
+2021-02-22 02:10:53.893 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:10:53.894 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,1,0,0,1
+2021-02-22 02:10:53.903 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00010
+2021-02-22 02:10:54.922 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:10:54.922 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,1,1,0,2
+2021-02-22 02:10:54.931 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00011
+2021-02-22 02:10:55.963 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:10:55.963 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,1,2,0,3
+2021-02-22 02:10:55.972 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00012
+2021-02-22 02:10:57.002 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:10:57.002 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,1,3,0,4
+2021-02-22 02:10:57.011 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00013
+2021-02-22 02:10:58.042 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:10:58.043 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,1,4,0,5
+2021-02-22 02:10:58.052 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00014
+2021-02-22 02:10:59.081 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:10:59.082 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,1,5,0,6
+2021-02-22 02:10:59.089 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00015
+2021-02-22 02:11:00.122 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:00.123 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,1,6,0,7
+2021-02-22 02:11:00.131 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00016
+2021-02-22 02:11:00.903 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:00.903 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,1,7,0,8
+2021-02-22 02:11:00.911 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00017
+2021-02-22 02:11:01.940 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:01.941 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,1,8,0,9
+2021-02-22 02:11:01.948 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00018
+2021-02-22 02:11:02.980 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:02.981 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,1,9,1,0
+2021-02-22 02:11:02.988 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00019
+2021-02-22 02:11:04.023 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:04.023 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,2,0,0,2
+2021-02-22 02:11:04.032 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00020
+2021-02-22 02:11:05.065 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:05.066 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,2,1,0,3
+2021-02-22 02:11:05.074 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00021
+2021-02-22 02:11:06.102 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:06.103 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,2,2,0,4
+2021-02-22 02:11:06.111 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00022
+2021-02-22 02:11:06.884 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 2
+2021-02-22 02:11:07.137 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 9
+2021-02-22 02:11:07.138 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,2,3,0,5
+2021-02-22 02:11:07.145 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00023
+2021-02-22 02:11:07.922 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:07.922 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,2,4,0,6
+2021-02-22 02:11:07.932 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00024
+2021-02-22 02:11:08.962 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:08.962 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,2,5,0,7
+2021-02-22 02:11:08.972 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00025
+2021-02-22 02:11:10.002 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:10.002 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,2,6,0,8
+2021-02-22 02:11:10.010 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00026
+2021-02-22 02:11:11.042 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:11.043 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,2,7,0,9
+2021-02-22 02:11:11.052 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00027
+2021-02-22 02:11:12.083 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:12.084 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,2,8,1,0
+2021-02-22 02:11:12.092 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00028
+2021-02-22 02:11:13.122 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:13.122 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,2,9,1,1
+2021-02-22 02:11:13.129 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00029
+2021-02-22 02:11:13.903 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:13.903 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,3,0,0,3
+2021-02-22 02:11:13.911 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00030
+2021-02-22 02:11:14.942 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:14.943 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,3,1,0,4
+2021-02-22 02:11:14.952 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00031
+2021-02-22 02:11:15.980 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:15.981 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,3,2,0,5
+2021-02-22 02:11:15.989 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00032
+2021-02-22 02:11:17.023 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:17.024 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,3,3,0,6
+2021-02-22 02:11:17.031 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00033
+2021-02-22 02:11:18.062 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:18.062 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,3,4,0,7
+2021-02-22 02:11:18.070 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00034
+2021-02-22 02:11:19.100 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:19.101 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,3,5,0,8
+2021-02-22 02:11:19.108 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00035
+2021-02-22 02:11:20.143 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 5
+2021-02-22 02:11:20.911 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:20.912 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,3,7,1,0
+2021-02-22 02:11:20.919 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00037
+2021-02-22 02:11:21.951 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:21.952 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,3,8,1,1
+2021-02-22 02:11:21.961 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00038
+2021-02-22 02:11:23.000 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:23.000 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,3,9,1,2
+2021-02-22 02:11:23.006 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00039
+2021-02-22 02:11:24.032 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:24.033 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,4,0,0,4
+2021-02-22 02:11:24.039 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00040
+2021-02-22 02:11:26.093 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:26.093 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,4,2,0,6
+2021-02-22 02:11:26.100 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00042
+2021-02-22 02:11:27.132 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:27.133 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,4,3,0,7
+2021-02-22 02:11:27.140 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00043
+2021-02-22 02:11:27.913 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:27.914 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,4,4,0,8
+2021-02-22 02:11:27.920 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00044
+2021-02-22 02:11:28.952 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:28.953 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,4,5,0,9
+2021-02-22 02:11:28.960 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00045
+2021-02-22 02:11:31.002 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:31.002 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,4,7,1,1
+2021-02-22 02:11:31.012 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00047
+2021-02-22 02:11:32.042 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:32.042 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,4,8,1,2
+2021-02-22 02:11:32.050 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00048
+2021-02-22 02:11:33.081 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:33.081 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,4,9,1,3
+2021-02-22 02:11:33.087 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00049
+2021-02-22 02:11:34.122 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:34.123 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,5,0,0,5
+2021-02-22 02:11:34.128 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00050
+2021-02-22 02:11:34.901 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:34.901 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,5,1,0,6
+2021-02-22 02:11:34.906 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00051
+2021-02-22 02:11:35.928 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:35.928 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,5,2,0,7
+2021-02-22 02:11:35.935 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00052
+2021-02-22 02:11:36.967 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:36.968 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,5,3,0,8
+2021-02-22 02:11:36.975 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00053
+2021-02-22 02:11:38.002 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:38.002 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,5,4,0,9
+2021-02-22 02:11:38.009 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00054
+2021-02-22 02:11:39.043 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:39.043 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,5,5,1,0
+2021-02-22 02:11:39.051 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00055
+2021-02-22 02:11:40.083 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:40.084 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,5,6,1,1
+2021-02-22 02:11:40.089 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00056
+2021-02-22 02:11:41.113 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:41.114 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,5,7,1,2
+2021-02-22 02:11:41.120 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00057
+2021-02-22 02:11:41.892 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 5
+2021-02-22 02:11:42.144 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 6
+2021-02-22 02:11:42.145 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,5,8,1,3
+2021-02-22 02:11:42.153 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00058
+2021-02-22 02:11:42.932 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:42.933 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,5,9,1,4
+2021-02-22 02:11:42.940 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00059
+2021-02-22 02:11:43.973 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:43.973 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,6,0,0,6
+2021-02-22 02:11:43.981 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00060
+2021-02-22 02:11:45.013 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:45.014 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,6,1,0,7
+2021-02-22 02:11:45.020 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00061
+2021-02-22 02:11:46.052 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:46.053 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,6,2,0,8
+2021-02-22 02:11:46.062 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00062
+2021-02-22 02:11:47.092 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:47.093 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,6,3,0,9
+2021-02-22 02:11:47.100 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00063
+2021-02-22 02:11:48.132 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:48.133 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,6,4,1,0
+2021-02-22 02:11:48.140 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00064
+2021-02-22 02:11:48.913 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:48.914 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,6,5,1,1
+2021-02-22 02:11:48.921 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00065
+2021-02-22 02:11:49.952 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:49.952 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,6,6,1,2
+2021-02-22 02:11:49.960 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00066
+2021-02-22 02:11:50.991 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:50.992 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,6,7,1,3
+2021-02-22 02:11:50.998 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00067
+2021-02-22 02:11:52.023 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:52.023 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,6,8,1,4
+2021-02-22 02:11:52.032 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00068
+2021-02-22 02:11:53.057 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:53.057 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,6,9,1,5
+2021-02-22 02:11:53.064 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00069
+2021-02-22 02:11:54.094 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:54.094 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,7,0,0,7
+2021-02-22 02:11:54.102 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00070
+2021-02-22 02:11:55.133 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:55.133 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,7,1,0,8
+2021-02-22 02:11:55.140 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00071
+2021-02-22 02:11:55.912 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:55.912 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,7,2,0,9
+2021-02-22 02:11:55.919 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00072
+2021-02-22 02:11:56.942 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:56.942 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,7,3,1,0
+2021-02-22 02:11:56.950 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00073
+2021-02-22 02:11:57.982 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:57.988 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,7,4,1,1
+2021-02-22 02:11:57.994 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00074
+2021-02-22 02:11:59.022 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:11:59.022 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,7,5,1,2
+2021-02-22 02:11:59.029 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00075
+2021-02-22 02:12:00.067 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:00.067 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,7,6,1,3
+2021-02-22 02:12:00.073 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00076
+2021-02-22 02:12:01.100 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:01.101 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,7,7,1,4
+2021-02-22 02:12:01.107 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00077
+2021-02-22 02:12:01.887 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 1
+2021-02-22 02:12:02.141 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 10
+2021-02-22 02:12:02.141 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,7,8,1,5
+2021-02-22 02:12:02.148 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00078
+2021-02-22 02:12:02.921 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:02.921 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,7,9,1,6
+2021-02-22 02:12:02.928 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00079
+2021-02-22 02:12:03.952 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:03.953 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,8,0,0,8
+2021-02-22 02:12:03.961 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00080
+2021-02-22 02:12:04.987 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:04.988 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,8,1,0,9
+2021-02-22 02:12:04.994 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00081
+2021-02-22 02:12:06.020 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:06.021 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,8,2,1,0
+2021-02-22 02:12:06.028 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00082
+2021-02-22 02:12:07.053 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:07.053 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,8,3,1,1
+2021-02-22 02:12:07.059 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00083
+2021-02-22 02:12:08.093 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:08.094 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,8,4,1,2
+2021-02-22 02:12:08.100 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00084
+2021-02-22 02:12:09.132 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:09.133 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,8,5,1,3
+2021-02-22 02:12:09.140 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00085
+2021-02-22 02:12:09.913 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:09.914 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,8,6,1,4
+2021-02-22 02:12:09.922 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00086
+2021-02-22 02:12:10.952 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:10.952 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,8,7,1,5
+2021-02-22 02:12:10.960 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00087
+2021-02-22 02:12:11.990 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:11.991 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,8,8,1,6
+2021-02-22 02:12:11.997 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00088
+2021-02-22 02:12:13.023 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:13.023 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,8,9,1,7
+2021-02-22 02:12:13.031 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00089
+2021-02-22 02:12:14.057 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:14.057 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,9,0,0,9
+2021-02-22 02:12:14.064 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00090
+2021-02-22 02:12:15.097 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:15.098 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,9,1,1,0
+2021-02-22 02:12:15.105 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00091
+2021-02-22 02:12:16.133 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:16.134 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,9,2,1,1
+2021-02-22 02:12:16.141 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00092
+2021-02-22 02:12:16.907 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:16.908 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,9,3,1,2
+2021-02-22 02:12:16.914 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00093
+2021-02-22 02:12:17.943 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:17.944 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,9,4,1,3
+2021-02-22 02:12:17.951 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00094
+2021-02-22 02:12:18.980 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:18.981 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,9,5,1,4
+2021-02-22 02:12:18.988 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00095
+2021-02-22 02:12:20.022 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:20.022 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,9,6,1,5
+2021-02-22 02:12:20.029 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00096
+2021-02-22 02:12:21.062 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:21.063 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,9,7,1,6
+2021-02-22 02:12:21.069 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00097
+2021-02-22 02:12:22.101 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:22.102 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,9,8,1,7
+2021-02-22 02:12:22.108 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00098
+2021-02-22 02:12:23.142 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:23.144 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,0,9,9,1,8
+2021-02-22 02:12:23.150 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00099
+2021-02-22 02:12:23.922 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:23.922 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,1,0,0,0,1
+2021-02-22 02:12:23.929 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00100
+2021-02-22 02:12:24.952 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:24.952 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,1,0,1,0,2
+2021-02-22 02:12:24.961 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00101
+2021-02-22 02:12:25.987 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:25.988 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,1,0,2,0,3
+2021-02-22 02:12:25.994 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00102
+2021-02-22 02:12:27.027 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:27.028 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,1,0,3,0,4
+2021-02-22 02:12:27.035 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00103
+2021-02-22 02:12:28.063 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:28.064 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,1,0,4,0,5
+2021-02-22 02:12:28.071 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00104
+2021-02-22 02:12:29.101 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:29.102 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,1,0,5,0,6
+2021-02-22 02:12:29.109 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00105
+2021-02-22 02:12:30.143 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:30.143 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,1,0,6,0,7
+2021-02-22 02:12:30.151 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00106
+2021-02-22 02:12:30.923 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:30.923 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,1,0,7,0,8
+2021-02-22 02:12:30.931 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00107
+2021-02-22 02:12:31.953 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:31.954 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,1,0,8,0,9
+2021-02-22 02:12:31.962 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00108
+2021-02-22 02:12:32.990 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:32.991 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,1,0,9,1,0
+2021-02-22 02:12:32.997 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00109
+2021-02-22 02:12:34.282 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:34.282 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,1,1,0,0,2
+2021-02-22 02:12:34.289 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00110
+2021-02-22 02:12:35.053 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:35.053 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,1,1,1,0,3
+2021-02-22 02:12:35.060 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00111
+2021-02-22 02:12:36.082 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:36.083 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,1,1,2,0,4
+2021-02-22 02:12:36.089 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00112
+2021-02-22 02:12:37.117 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:37.118 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,1,1,3,0,5
+2021-02-22 02:12:37.124 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00113
+2021-02-22 02:12:38.152 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:38.152 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,1,1,4,0,6
+2021-02-22 02:12:38.158 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00114
+2021-02-22 02:12:38.932 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:38.933 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,1,1,5,0,7
+2021-02-22 02:12:38.940 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00115
+2021-02-22 02:12:41.002 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:41.002 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,1,1,7,0,9
+2021-02-22 02:12:41.012 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00117
+2021-02-22 02:12:42.043 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:42.043 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,1,1,8,1,0
+2021-02-22 02:12:42.050 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00118
+2021-02-22 02:12:43.083 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:43.084 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,1,1,9,1,1
+2021-02-22 02:12:43.091 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00119
+2021-02-22 02:12:44.122 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:44.122 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,1,2,0,0,3
+2021-02-22 02:12:44.138 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00120
+2021-02-22 02:12:44.907 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:44.907 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,1,2,1,0,4
+2021-02-22 02:12:44.914 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00121
+2021-02-22 02:12:45.942 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:45.943 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,1,2,2,0,5
+2021-02-22 02:12:45.949 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00122
+2021-02-22 02:12:46.972 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: 11
+2021-02-22 02:12:46.972 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: byte: 65,0,0,1,2,3,0,6
+2021-02-22 02:12:46.979 13164-13201/cx.bird.tbt.serialconanddraw I/TAG: Atai: 00123

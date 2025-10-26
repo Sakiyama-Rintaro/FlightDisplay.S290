@@ -1,0 +1,1590 @@
+2020-12-13 23:38:38.938 17719-17719/? I/com.example.us: Late-enabling -Xcheck:jni
+2020-12-13 23:38:38.954 17719-17719/? E/com.example.us: Unknown bits set in runtime_flags: 0x8000
+2020-12-13 23:38:39.062 17719-17719/com.example.usb I/Perf: Connecting to perf service.
+2020-12-13 23:38:39.067 17719-17755/com.example.usb E/Perf: Fail to get file list com.example.usb
+2020-12-13 23:38:39.067 17719-17755/com.example.usb E/Perf: getFolderSize() : Exception_1 = java.lang.NullPointerException: Attempt to get length of null array
+2020-12-13 23:38:39.148 17719-17719/com.example.usb W/com.example.us: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+2020-12-13 23:38:39.149 17719-17719/com.example.usb W/com.example.us: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+2020-12-13 23:38:39.226 17719-17756/com.example.usb I/AdrenoGLES: QUALCOMM build                   : 34b6654, Id4a1c1aeea
+    Build Date                       : 09/27/19
+    OpenGL ES Shader Compiler Version: EV031.27.05.01
+    Local Branch                     : mybranche9e11bf4-9ce3-f1c7-8600-1458d0b52ae8
+    Remote Branch                    : quic/gfx-adreno.lnx.1.0.r72-rel
+    Remote Branch                    : NONE
+    Reconstruct Branch               : NOTHING
+2020-12-13 23:38:39.226 17719-17756/com.example.usb I/AdrenoGLES: Build Config                     : S P 8.0.11 AArch64
+2020-12-13 23:38:39.228 17719-17756/com.example.usb I/AdrenoGLES: PFP: 0x016ee187, ME: 0x00000000
+2020-12-13 23:38:39.229 17719-17756/com.example.usb W/AdrenoUtils: <ReadGpuID_from_sysfs:194>: Failed to open /sys/class/kgsl/kgsl-3d0/gpu_model
+2020-12-13 23:38:39.229 17719-17756/com.example.usb W/AdrenoUtils: <ReadGpuID:218>: Failed to read chip ID from gpu_model. Fallback to use the GSL path
+2020-12-13 23:38:39.244 17719-17756/com.example.usb W/Gralloc3: mapper 3.x is not supported
+2020-12-13 23:38:40.414 17719-17719/com.example.usb I/TAG: cone
+2020-12-13 23:38:40.414 17719-17719/com.example.usb I/TAG: Connected
+2020-12-13 23:38:40.418 17719-17719/com.example.usb D/FtdiSerialDriver: claimInterface 0 SUCCESS
+2020-12-13 23:38:40.419 17719-17719/com.example.usb D/UsbRequestJNI: init
+2020-12-13 23:38:41.495 17719-17719/com.example.usb I/TAG: read
+2020-12-13 23:38:41.499 17719-17766/com.example.usb I/TAG: ser1
+2020-12-13 23:38:41.500 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:41.701 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+65
+2020-12-13 23:38:41.701 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:38:41.701 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:38:41.701 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:38:41.751 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:38:41.753 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:41.956 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:42.158 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:38:42.158 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:38:42.158 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:38:42.158 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:38:42.159 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:38:42.159 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:42.360 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:38:42.360 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:38:42.360 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:38:42.360 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:38:42.361 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:38:42.362 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:42.966 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:38:43.168 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:43.369 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:38:43.370 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:38:43.370 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:38:43.370 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:38:43.370 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:38:43.371 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:43.573 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:38:43.573 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:38:43.573 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:38:43.573 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:38:43.573 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:38:43.574 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:44.178 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:38:44.379 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:44.582 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:38:44.582 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:38:44.582 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:38:44.582 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:38:44.584 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:38:44.586 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:44.787 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:38:44.787 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:38:44.787 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:38:44.787 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:38:44.788 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:38:44.789 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:44.991 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:45.395 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:38:45.596 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:45.797 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+65
+2020-12-13 23:38:45.797 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:38:45.798 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:38:45.798 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:38:45.799 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:38:45.800 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:46.002 17719-17766/com.example.usb I/TAG: byte: 5+66+0+0+0+0+1+5+66+0+0+65
+2020-12-13 23:38:46.003 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:46.810 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 4 lines
+2020-12-13 23:38:47.013 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:47.214 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:38:47.214 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:38:47.214 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:38:47.214 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:38:47.215 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:38:47.216 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:47.418 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:38:47.620 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:47.821 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:48.023 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:48.225 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:38:48.225 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:38:48.226 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:38:48.226 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:38:48.227 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:38:48.228 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:49.038 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 4 lines
+2020-12-13 23:38:49.240 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:49.441 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:38:49.441 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:38:49.441 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:38:49.441 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:38:49.442 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:38:49.445 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:49.647 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:38:49.849 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:50.051 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:50.252 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:50.454 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:38:50.454 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:38:50.454 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:38:50.454 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:38:50.456 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:38:50.457 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:50.659 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:50.861 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:51.063 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:51.265 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:38:51.466 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:51.667 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:38:51.667 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:38:51.667 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:38:51.667 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:38:51.668 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:38:51.669 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:52.274 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:38:52.475 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:52.677 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:38:52.677 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:38:52.677 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:38:52.677 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:38:52.678 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:38:52.682 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:53.489 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 4 lines
+2020-12-13 23:38:53.690 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:53.891 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:38:53.891 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:38:53.891 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:38:53.891 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:38:53.891 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:38:53.893 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:54.095 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:54.500 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:38:54.704 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:54.905 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:38:54.905 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:38:54.905 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:38:54.905 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:38:54.906 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:38:54.907 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:55.513 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:38:55.716 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:55.917 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:38:55.917 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:38:55.917 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:38:55.917 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:38:55.918 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:38:55.920 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:56.527 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:38:56.728 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:56.929 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:57.130 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:38:57.130 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:38:57.130 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:38:57.130 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:38:57.131 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:38:57.132 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:57.737 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:38:57.939 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:58.141 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:38:58.141 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:38:58.142 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:38:58.142 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:38:58.143 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:38:58.144 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:58.952 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 4 lines
+2020-12-13 23:38:59.158 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:59.359 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:38:59.360 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:38:59.360 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:38:59.360 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:38:59.361 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:38:59.363 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:59.565 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:38:59.766 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:38:59.968 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:00.169 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:00.371 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:00.372 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:00.372 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:00.372 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:00.373 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:00.375 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:01.184 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 4 lines
+2020-12-13 23:39:01.387 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:01.589 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:01.589 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:01.589 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:01.589 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:01.590 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:01.593 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:02.198 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:39:02.399 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:02.601 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:02.601 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:02.601 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:02.601 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:02.602 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:02.603 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:02.805 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:03.007 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:03.208 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:03.409 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:03.610 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+66+0
+2020-12-13 23:39:03.611 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:03.611 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:03.611 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:03.612 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:03.613 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:03.814 17719-17766/com.example.usb I/TAG: byte: 0+96+0+4+3+2+1+5+66+0+66+0
+2020-12-13 23:39:03.815 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:04.217 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:39:04.420 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:04.622 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:04.822 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:04.822 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:04.823 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:04.823 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:04.823 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:04.824 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:05.024 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:05.225 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:05.426 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:05.626 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:05.827 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:05.827 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:05.827 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:05.827 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:05.827 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:05.828 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:06.029 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:06.231 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:06.433 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:06.634 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:39:06.835 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:07.036 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:07.036 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:07.036 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:07.036 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:07.037 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:07.037 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:07.238 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:07.641 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:39:07.842 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:08.045 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:08.045 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:08.045 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:08.045 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:08.046 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:08.047 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:08.249 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:08.451 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:08.653 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:39:08.856 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:09.058 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:09.259 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:09.259 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:09.259 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:09.259 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:09.260 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:09.261 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:09.463 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:09.868 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:39:10.069 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:10.271 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:10.271 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:10.271 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:10.271 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:10.273 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:10.274 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:10.475 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:39:10.677 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:10.879 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:11.080 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:11.282 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:11.483 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:11.483 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:11.483 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:11.483 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:11.484 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:11.487 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:11.688 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:39:11.891 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:12.092 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:12.294 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:12.495 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:12.495 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:12.495 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:12.495 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:12.496 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:12.497 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:13.103 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:39:13.305 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:13.507 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+2+3+5+66+0+0+0
+2020-12-13 23:39:13.508 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:13.508 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:13.508 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:13.509 17719-17766/com.example.usb I/TAG: Atai: 12323
+2020-12-13 23:39:13.511 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:13.712 17719-17766/com.example.usb I/TAG: byte: 4+5+5+66+0+0+0+0+66+0+0+0
+2020-12-13 23:39:13.713 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:14.319 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:39:14.522 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:14.723 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:14.724 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:14.724 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:14.724 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:14.725 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:14.726 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:14.928 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:15.130 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:15.331 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:15.533 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:15.734 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:15.734 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:15.734 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:15.735 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:15.735 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:15.737 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:16.544 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 4 lines
+2020-12-13 23:39:16.746 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:16.948 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:16.948 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:16.948 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:16.948 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:16.949 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:16.950 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:17.556 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:39:17.758 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:17.960 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:17.960 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:17.961 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:17.961 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:17.962 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:17.963 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:18.165 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:18.366 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:18.567 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:18.769 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:39:18.976 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:19.177 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:19.177 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:19.177 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:19.177 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:19.178 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:19.179 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:19.380 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:39:19.583 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:19.785 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:19.986 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:20.188 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:20.188 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:20.188 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:20.188 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:20.189 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:20.191 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:20.796 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:39:20.997 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:21.199 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:21.400 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:21.400 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:21.400 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:21.400 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:21.401 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:21.402 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:21.603 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:22.008 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:39:22.209 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:22.410 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:22.411 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:22.411 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:22.411 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:22.412 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:22.413 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:22.614 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:23.019 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:39:23.220 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:23.422 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:23.422 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:23.422 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:23.423 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:23.423 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:23.427 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:23.831 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:39:24.034 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:24.235 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:24.437 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:24.638 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:24.638 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:24.639 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:24.639 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:24.639 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:24.640 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:25.247 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:39:25.449 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:25.650 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:25.650 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:25.650 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:25.650 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:25.651 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:25.653 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:25.856 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:26.058 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:26.469 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:39:26.672 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:26.874 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:26.874 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:26.874 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:26.874 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:26.875 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:26.876 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:27.077 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:27.278 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:27.480 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:27.681 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:27.883 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:27.883 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:27.883 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:27.883 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:27.884 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:27.885 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:28.693 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 4 lines
+2020-12-13 23:39:28.896 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:29.098 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:29.098 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:29.098 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:29.098 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:29.098 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:29.099 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:29.301 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:29.705 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:39:29.908 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:30.110 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:30.110 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:30.110 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:30.110 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:30.111 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:30.112 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:30.315 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:30.517 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:30.719 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:30.921 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:31.123 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:31.123 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:31.123 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:31.123 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:31.124 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:31.125 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:31.934 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 4 lines
+2020-12-13 23:39:32.139 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:32.341 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:32.341 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:32.342 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:32.342 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:32.343 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:32.344 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:32.951 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:39:33.153 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:33.355 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:33.355 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:33.355 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:33.355 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:33.356 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:33.359 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:33.560 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:39:33.762 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:33.964 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:34.165 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:39:34.367 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:34.575 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:34.576 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:34.576 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:34.576 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:34.577 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:34.580 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:34.781 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:35.188 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:39:35.390 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:35.592 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:35.592 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:35.592 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:35.592 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:35.593 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:35.594 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:35.997 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:39:36.200 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:36.401 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:36.604 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:36.806 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:36.806 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:36.806 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:36.806 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:36.807 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:36.808 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:37.009 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:37.412 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:39:37.614 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:37.817 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:37.817 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:37.817 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:37.817 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:37.818 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:37.819 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:38.425 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:39:38.628 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:38.829 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:38.829 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:38.829 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:38.829 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:38.830 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:38.831 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:39.033 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:39.235 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:39.437 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:39.638 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:39:39.841 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:40.042 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:40.043 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:40.043 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:40.043 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:40.043 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:40.044 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:40.649 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:39:40.852 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:41.053 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:41.054 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:41.054 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:41.054 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:41.055 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:41.056 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:41.257 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:41.459 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:41.863 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:39:42.065 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:42.265 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:42.266 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:42.266 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:42.266 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:42.266 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:42.267 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:42.469 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:42.670 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:39:42.872 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:43.074 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:43.275 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:43.275 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:43.275 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:43.275 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:43.275 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:43.277 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:43.479 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:43.680 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:44.085 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:39:44.288 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:44.489 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:44.490 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:44.490 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:44.490 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:44.491 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:44.492 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:45.098 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:39:45.300 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:45.501 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:45.501 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:45.501 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:45.501 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:45.502 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:45.505 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:45.707 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:45.908 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:46.110 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:46.311 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:46.513 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+4+5+0+0+0
+2020-12-13 23:39:46.513 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:46.513 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:46.514 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:46.715 17719-17766/com.example.usb I/TAG: byte: 5+66+0+0+0+0+5+4+5+0+0+0
+2020-12-13 23:39:46.716 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:47.118 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:39:47.321 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:47.522 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:47.723 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:47.724 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:47.724 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:47.724 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:47.724 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:47.725 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:48.129 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:39:48.331 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:48.533 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:48.734 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:48.735 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:48.735 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:48.735 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:48.735 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:48.737 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:48.938 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:49.140 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:49.548 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:39:49.750 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:49.951 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:49.951 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:49.952 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:49.952 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:49.952 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:49.953 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:50.558 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:39:50.760 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:50.962 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:50.963 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:50.963 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:50.963 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:50.963 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:50.965 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:51.166 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:39:51.368 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:51.569 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:51.770 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:51.972 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:52.173 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:52.173 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:52.173 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:52.173 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:52.174 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:52.175 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:52.780 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:39:52.983 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:53.185 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:53.185 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:53.185 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:53.185 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:53.186 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:53.187 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:53.995 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 4 lines
+2020-12-13 23:39:54.196 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:54.397 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:54.397 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:54.397 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:54.398 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:54.398 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:54.400 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:54.603 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:54.805 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:55.006 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:55.207 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:55.408 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:55.408 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:55.408 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:55.408 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:55.409 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:55.410 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:55.611 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:56.014 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:39:56.217 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:56.418 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:56.418 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:56.418 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:56.419 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:56.419 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:56.420 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:57.227 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 4 lines
+2020-12-13 23:39:57.428 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:57.629 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:57.630 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:57.630 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:57.630 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:57.630 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:57.631 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:57.833 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:58.035 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:58.236 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:58.438 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:58.639 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:39:58.639 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:58.640 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:58.640 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:58.640 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:39:58.642 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:59.449 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 4 lines
+2020-12-13 23:39:59.651 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:39:59.853 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:39:59.853 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:39:59.853 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:39:59.853 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:39:59.854 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:39:59.855 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:00.258 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:40:00.460 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:00.662 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:00.863 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:00.863 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:00.863 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:00.863 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:00.864 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:00.865 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:01.066 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:40:01.268 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:01.469 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:01.670 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:01.873 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:02.074 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:02.074 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:02.074 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:02.074 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:02.075 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:02.076 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:02.278 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:02.479 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:02.680 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:02.882 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:03.084 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:03.084 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:03.084 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:03.084 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:03.084 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:03.087 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:03.288 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:40:03.490 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:03.691 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:03.892 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:04.093 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:04.295 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:04.295 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:04.295 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:04.295 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:04.296 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:04.297 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:04.498 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:04.698 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:04.900 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:05.102 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:05.303 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:05.303 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:05.304 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:05.304 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:05.304 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:05.305 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:05.912 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:40:06.113 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:06.315 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+5+5+0+0
+2020-12-13 23:40:06.315 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:06.315 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:06.316 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:06.518 17719-17766/com.example.usb I/TAG: byte: 66+0+0+0+0+4+5+5+5+5+0+0
+2020-12-13 23:40:06.518 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:06.720 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:06.921 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:07.123 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:40:07.325 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:07.528 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:07.528 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:07.528 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:07.528 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:07.529 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:07.531 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:07.734 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:40:07.936 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:08.138 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:08.339 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:08.541 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:08.541 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:08.541 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:08.541 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:08.542 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:08.545 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:08.746 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:09.353 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:40:09.556 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:09.758 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:09.758 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:09.758 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:09.758 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:09.759 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:09.761 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:09.963 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:10.164 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:40:10.366 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:10.567 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:10.768 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:10.768 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:10.768 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:10.768 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:10.769 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:10.770 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:11.577 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 4 lines
+2020-12-13 23:40:11.779 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:11.980 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:11.981 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:11.981 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:11.981 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:11.981 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:11.982 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:12.586 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:40:12.788 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:12.989 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:12.989 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:12.989 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:12.989 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:12.990 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:12.991 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:13.194 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:40:13.397 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:13.598 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:13.800 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:40:14.004 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:14.205 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:14.205 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:14.205 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:14.205 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:14.206 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:14.207 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:14.409 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:40:14.611 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:14.812 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:15.014 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:15.216 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:15.216 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:15.216 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:15.216 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:15.217 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:15.218 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:15.421 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:40:15.623 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:15.824 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:16.026 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:16.227 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:16.227 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:16.227 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:16.228 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:16.228 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:16.229 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:16.431 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:16.633 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:17.036 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:40:17.240 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:17.440 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:17.441 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:17.441 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:17.441 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:17.441 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:17.442 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:17.644 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:18.046 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:40:18.249 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:18.450 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:18.450 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:18.450 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:18.450 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:18.450 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:18.451 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:18.654 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:40:18.856 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:19.058 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:19.259 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:40:19.461 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:19.662 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:19.662 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:19.662 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:19.662 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:19.663 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:19.663 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:20.269 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:40:20.471 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:20.671 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:20.671 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:20.671 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:20.671 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:20.672 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:20.673 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:21.480 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 4 lines
+2020-12-13 23:40:21.681 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:21.883 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:21.883 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:21.883 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:21.883 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:21.884 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:21.886 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:22.087 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:22.289 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:40:22.491 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:22.692 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:22.893 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:22.893 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:22.893 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:22.893 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:22.894 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:22.895 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:23.298 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:40:23.499 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:23.700 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:23.902 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:24.104 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:24.104 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:24.104 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:24.104 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:24.104 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:24.106 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:24.711 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:40:24.913 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:25.113 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:25.113 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:25.113 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:25.114 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:25.114 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:25.114 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:25.316 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:40:25.518 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:25.719 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:25.921 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:26.122 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:26.122 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:26.122 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:26.122 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:26.123 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:26.124 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:26.325 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:26.527 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:26.728 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:26.930 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:40:27.131 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:27.332 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:27.332 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:27.332 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:27.332 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:27.332 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:27.333 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:27.738 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:40:27.940 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:28.142 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:28.343 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:28.343 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:28.343 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:28.343 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:28.344 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:28.346 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:28.547 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:40:28.749 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:28.950 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:29.152 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:40:29.354 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:29.554 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:29.554 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:29.555 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:29.555 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:29.555 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:29.556 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:29.959 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:40:30.161 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:30.363 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:30.563 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:30.563 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:30.563 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:30.564 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:30.564 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:30.565 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:30.767 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:40:30.969 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:31.171 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:31.374 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:40:31.576 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:31.778 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:31.778 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:31.778 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:31.778 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:31.779 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:31.782 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:31.985 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:32.392 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:40:32.594 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:32.795 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:32.795 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:32.795 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:32.795 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:32.795 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:32.796 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:33.601 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 4 lines
+2020-12-13 23:40:33.803 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:34.005 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:34.005 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:34.005 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:34.005 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:34.006 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:34.009 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:34.211 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:34.614 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:40:34.815 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:35.016 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:35.016 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:35.016 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:35.016 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:35.017 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:35.017 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:35.218 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:35.419 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:35.621 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:40:35.823 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:36.024 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:36.024 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:36.024 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:36.024 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:36.025 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:36.026 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:36.833 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 4 lines
+2020-12-13 23:40:37.035 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:37.236 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:37.236 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:37.236 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:37.236 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:37.237 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:37.237 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:37.641 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:40:37.842 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:38.044 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:38.245 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:38.245 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:38.245 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:38.245 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:38.246 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:38.247 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:39.056 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 4 lines
+2020-12-13 23:40:39.257 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:39.458 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:39.458 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:39.458 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:39.458 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:39.458 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:39.460 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:39.863 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:40:40.064 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:40.265 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:40.466 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:40.466 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:40.466 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:40.466 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:40.466 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:40.467 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:40.670 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:40:40.872 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:41.074 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:41.275 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:41.476 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:41.677 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:41.677 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:41.677 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:41.677 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:41.678 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:41.679 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:41.880 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:42.080 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:42.312 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:42.525 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:42.762 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:42.762 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:42.762 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:42.762 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:42.762 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:42.763 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:43.004 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:43.235 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:43.438 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:40:43.657 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:43.858 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:43.858 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:43.858 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:43.858 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:43.859 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:43.859 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:44.061 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:44.511 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:40:44.753 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:44.969 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:44.969 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:44.969 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:44.969 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:44.969 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:44.970 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:45.617 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:40:45.854 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:46.073 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:46.073 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:46.073 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:46.073 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:46.073 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:46.074 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:46.312 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:46.553 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:46.794 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 1 line
+2020-12-13 23:40:47.036 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:47.238 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:47.238 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:47.238 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:47.238 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:47.238 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:47.239 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:47.462 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:47.664 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:47.895 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:48.136 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:48.377 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:48.378 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:48.378 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:48.378 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:48.379 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:48.381 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:48.854 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:40:49.066 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:49.279 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:49.280 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:49.280 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:49.280 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:49.280 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:49.281 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:49.952 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:40:50.155 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:50.396 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:50.397 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:50.397 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:50.397 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:50.397 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:50.399 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:51.057 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:40:51.270 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:51.510 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:51.510 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:51.510 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:51.510 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:51.511 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:51.512 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:52.168 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:40:52.384 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:52.622 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:52.623 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:52.623 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:52.623 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:52.623 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:52.624 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:53.342 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:40:53.584 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:53.788 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:53.788 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:53.788 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:53.789 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:53.789 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:53.791 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:54.459 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:40:54.694 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:54.910 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:54.911 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:54.911 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:54.911 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:54.911 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:54.913 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:55.397 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:40:55.636 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:55.864 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:55.864 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:55.864 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:55.864 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:55.865 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:55.867 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:56.563 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:40:56.782 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:57.011 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:57.011 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:57.011 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:57.011 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:57.012 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:57.014 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:57.442 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:40:57.665 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:57.894 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:58.120 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:40:58.120 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:58.120 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:58.120 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:58.121 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:40:58.122 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:58.826 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:40:59.062 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:59.275 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:40:59.275 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:40:59.275 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:40:59.275 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:40:59.276 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:40:59.279 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:40:59.955 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:00.196 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:00.424 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:00.424 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:00.424 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:00.425 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:00.425 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:41:00.429 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:00.884 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:41:01.113 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:01.343 17719-17766/com.example.usb I/TAG: byte: 65+5+65+5+3+2+1+5+66+0+0+0
+2020-12-13 23:41:01.343 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:01.344 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:01.344 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:01.344 17719-17766/com.example.usb I/TAG: Atai: 65532
+2020-12-13 23:41:01.346 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:01.576 17719-17766/com.example.usb I/TAG: byte: 1+2+3+4+5+5+66+0+0+0+0+0
+2020-12-13 23:41:01.577 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:02.210 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:02.436 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:02.674 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:02.674 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:02.674 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:02.674 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:02.675 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:41:02.682 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:03.125 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:41:03.344 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:03.551 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:41:03.551 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:03.551 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:03.551 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:03.552 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:41:03.553 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:04.219 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:04.455 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:04.675 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:04.675 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:04.675 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:04.675 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:04.676 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:41:04.678 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:05.346 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:05.554 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:05.757 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:41:05.757 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:05.757 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:05.757 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:05.758 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:41:05.759 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:06.439 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:06.683 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:06.914 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:06.914 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:06.914 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:06.914 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:06.915 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:41:06.917 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:07.612 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:07.823 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:08.062 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:41:08.063 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:08.063 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:08.063 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:08.063 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:41:08.065 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:08.738 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:08.943 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:09.149 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:09.149 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:09.149 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:09.150 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:09.150 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:41:09.151 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:09.852 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:10.085 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:10.291 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:41:10.291 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:10.291 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:10.291 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:10.292 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:41:10.293 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:10.921 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:11.139 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:11.367 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:11.367 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:11.367 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:11.367 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:11.368 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:41:11.369 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:12.026 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:12.263 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:12.496 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:41:12.496 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:12.496 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:12.496 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:12.497 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:41:12.499 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:13.174 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:13.377 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:13.581 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:13.582 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:13.582 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:13.582 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:13.582 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:41:13.584 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:14.269 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:14.510 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:14.747 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:41:14.747 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:14.747 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:14.747 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:14.748 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:41:14.750 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:15.180 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:41:15.418 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:15.656 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+3+2+66+0+0+0
+2020-12-13 23:41:15.657 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:15.657 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:15.658 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:15.866 17719-17766/com.example.usb I/TAG: byte: 1+5+66+0+0+0+0+2+66+0+0+0
+2020-12-13 23:41:15.867 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:16.343 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:41:16.549 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:16.756 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:41:16.756 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:16.756 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:16.756 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:16.757 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:41:16.763 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:17.473 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:17.711 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:17.934 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:17.934 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:17.934 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:17.934 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:17.934 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:41:17.935 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:18.593 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:18.824 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:19.034 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:41:19.035 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:19.035 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:19.035 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:19.035 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:41:19.038 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:19.650 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:19.872 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:20.111 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:20.111 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:20.111 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:20.111 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:20.112 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:41:20.113 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:20.577 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:41:20.804 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:21.035 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:21.242 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:41:21.242 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:21.243 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:21.243 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:21.243 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:41:21.244 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:21.924 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:22.152 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:22.393 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:22.393 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:22.393 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:22.393 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:22.394 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:41:22.395 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:23.113 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:23.349 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:23.555 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:41:23.555 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:23.556 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:23.556 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:23.556 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:41:23.559 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:23.984 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:41:24.226 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:24.435 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:24.435 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:24.435 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:24.435 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:24.436 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:41:24.438 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:25.283 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 4 lines
+2020-12-13 23:41:25.513 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:25.754 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:41:25.754 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:25.754 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:25.754 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:25.755 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:41:25.755 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:25.978 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:26.212 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:26.436 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:26.662 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:26.663 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:26.663 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:26.663 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:26.663 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:41:26.665 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:27.363 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:27.603 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:27.836 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:41:27.836 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:27.836 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:27.836 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:27.837 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:41:27.837 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:28.525 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:28.735 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:28.962 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:28.962 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:28.962 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:28.962 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:28.963 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:41:28.966 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:29.425 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:41:29.633 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:29.855 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:30.097 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:41:30.097 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:30.097 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:30.097 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:30.098 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:41:30.099 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:30.733 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:30.966 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:31.173 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:31.174 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:31.174 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:31.174 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:31.174 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:41:31.175 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:31.903 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:32.113 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:32.329 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:41:32.329 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:32.329 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:32.329 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:32.330 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:41:32.331 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:32.571 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:32.804 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:33.035 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:33.273 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:33.274 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:33.274 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:33.274 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:33.274 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:41:33.276 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:33.971 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:34.176 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:34.412 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:41:34.412 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:34.412 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:34.412 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:34.413 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:41:34.415 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:35.078 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:35.283 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:35.516 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:35.516 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:35.516 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:35.516 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:35.517 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:41:35.520 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:36.247 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:36.463 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:36.684 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:41:36.684 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:36.684 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:36.684 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:36.685 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:41:36.686 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:37.363 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:37.597 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:37.816 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:37.816 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:37.816 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:37.816 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:37.817 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:41:37.818 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:38.035 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:38.251 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:38.483 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:38.725 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:38.962 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:41:38.963 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:38.963 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:38.963 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:38.963 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:41:38.968 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:39.444 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:41:39.664 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:39.881 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:39.881 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:39.881 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:39.881 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:39.882 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:41:39.883 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:40.543 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:40.768 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:40.991 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:41:40.991 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:40.991 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:40.991 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:40.992 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:41:40.994 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:41.665 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:41.906 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:42.112 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:42.112 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:42.112 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:42.112 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:42.113 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:41:42.119 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:42.789 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:43.011 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:43.242 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:41:43.242 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:43.242 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:43.242 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:43.243 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:41:43.243 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:43.936 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:44.163 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:44.370 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:44.371 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:44.371 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:44.371 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:44.371 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:41:44.371 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:45.065 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:45.268 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:45.480 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:41:45.481 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:45.481 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:45.481 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:45.481 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:41:45.482 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:46.151 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:46.393 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:46.634 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:46.634 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:46.634 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:46.634 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:46.635 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:41:46.635 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:47.112 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 2 lines
+2020-12-13 23:41:47.353 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:47.563 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:41:47.563 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:47.564 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:47.564 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:47.564 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:41:47.566 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:48.276 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:48.513 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:48.744 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:48.745 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:48.745 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:48.745 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:48.745 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:41:48.748 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:49.409 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:49.635 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:49.876 17719-17766/com.example.usb I/TAG: byte: 65+5+1+2+3+4+5+5+66+0+0+0
+2020-12-13 23:41:49.876 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:49.876 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:49.876 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:49.877 17719-17766/com.example.usb I/TAG: Atai: 12345
+2020-12-13 23:41:49.878 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:50.564 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) Thread-3 identical 3 lines
+2020-12-13 23:41:50.803 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:51.043 17719-17766/com.example.usb I/TAG: byte: 65+5+5+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:51.043 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:51.043 17719-17766/com.example.usb I/TAG: length5
+2020-12-13 23:41:51.043 17719-17766/com.example.usb I/TAG: OK2
+2020-12-13 23:41:51.043 17719-17766/com.example.usb I/TAG: Atai: 54321
+2020-12-13 23:41:51.049 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:51.513 17719-17766/com.example.usb I/chatty: uid=10520(com.example.usb) identical 2 lines
+2020-12-13 23:41:51.717 17719-17766/com.example.usb I/TAG: serlen
+2020-12-13 23:41:51.927 17719-17766/com.example.usb I/TAG: byte: 65+96+65+4+3+2+1+5+66+0+0+0
+2020-12-13 23:41:51.927 17719-17766/com.example.usb I/TAG: OK1
+2020-12-13 23:41:51.927 17719-17766/com.example.usb I/TAG: length96

@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '1.4.10'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    implementation("org.mariadb.jdbc:mariadb-java-client:2.4.4")
+    compile 'org.jetbrains.exposed:exposed-core:0.30.1'
+    compile 'org.jetbrains.exposed:exposed-dao:0.30.1'
+    compile 'org.jetbrains.exposed:exposed-jdbc:0.30.1'
+    compile 'org.jetbrains.exposed:exposed-jodatime:0.30.1'
+
+    // for H2
+    implementation("com.h2database:h2:1.4.199")
+    // for logging (StdOutSqlLogger), see
+    // http://www.slf4j.org/codes.html#StaticLoggerBinder
+    implementation("org.slf4j:slf4j-nop:1.7.30")
+}
+
+test {
+    useJUnitPlatform()
+}
