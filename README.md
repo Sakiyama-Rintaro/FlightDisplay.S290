@@ -27,20 +27,20 @@
         * flightDisplayForS270Malus `// パッケージです`
     * Server `//サーバーで動くプログラムです`
 * doc `//ドキュメントが入っています`
-* [module](https://github.com/sin0111/arajin.21st.denso.tbt/tree/master/module) `// 単体テストで用いたものが入っています。（studyと重複はあるが、基本有用なものがあるはず。）`
+* [module](https://github.com/Sakiyama-Rintaro/FlightDisplay.S290/tree/main/module) `// 単体テストで用いたものが入っています。（studyと重複はあるが、基本有用なものがあるはず。）`
 * study `// 勉強に用いたものです。（moduleと重複はあるが、動くのか動かないのかわからないものも入ってる。）`
 ### もくじ
-* [はじめに](https://github.com/sin0111/tbt.denso.21st/blob/master/README.md) `-いまここ`
+* [はじめに](https://github.com/Sakiyama-Rintaro/FlightDisplay.S290/blob/main/README.md) `-いまここ`
     * 導入 
     * システムアーキテクチャ
     * 用語集
     * 謝辞
-* [セットアップ](https://github.com/sin0111/arajin.21st.denso.tbt/blob/master/doc/md/set-up.md)
+* [セットアップ](https://github.com/Sakiyama-Rintaro/FlightDisplay.S290/blob/master/doc/md/set-up.md)
     * S-290のフライトディスプレイをとりあえず再現しよう
         * Windows
         * Android
         * Raspberry Pi
-* [プログラムガイド](https://github.com/sin0111/arajin.21st.denso.tbt/blob/master/doc/md/guide.md) 
+* [プログラムガイド](https://github.com/Sakiyama-Rintaro/FlightDisplay.S290/blob/master/doc/md/guide.md) 
     * 設計思想 
     * Android
         * 設計思想
@@ -48,21 +48,21 @@
     * Raspberry Pi
         * 設計思想
         * ライブラリ
-* [こつ](https://github.com/sin0111/arajin.21st.denso.tbt/blob/master/doc/md/tips.md)
+* [こつ](https://github.com/Sakiyama-Rintaro/FlightDisplay.S290/blob/master/doc/md/tips.md)
     * 活用したサイト・ソフトウェア
     * 通信契約について
     * Android Studio
         * ライブラリの追加
         * Wi-Fiデバッグ
-* [おまけ](https://github.com/sin0111/arajin.21st.denso.tbt/blob/master/doc/md/omake.md)気が向いたら書きます。
+* [おまけ](https://github.com/Sakiyama-Rintaro/FlightDisplay.S290/blob/master/doc/md/omake.md)気が向いたら書きます。
     * 情報コンセントを作る方法
 
 
 ## 既知のバグ・やり残したこと
-[Issues](https://github.com/TeamBirdmanTrial/FlightDisplay.arajin.S270/issues)から見られるはずです。
+[Issues](https://github.com/Sakiyama-Rintaro/FlightDisplay.S290/issues)から見られるはずです。
 
 ## ⚠セキュリティの警告⚠
-[攻撃ログ](https://github.com/sin0111/arajin.21st.denso.tbt/blob/master/doc/bf_atk.log)  
+[攻撃ログ](https://github.com/Sakiyama-Rintaro/FlightDisplay.S290/blob/master/doc/bf_atk.log)  
 これは総当たり攻撃（ブルートフォースアタック）のログです。存在しそうなユーザー名で1秒間に10回弱ログインできないかを試みられています。このログはログインに失敗した（＝攻撃に失敗した）というログですが、インターネットから疎通できるサーバーを設置するとこのような脅威があります。適切なセキュリティ対策を行わないとログインが成功し、乗っ取られて個人情報が取られたり、ウイルスに感染しこのサーバーを踏み台としたサイバー攻撃に使われたりします。踏み台に使われると[不正アクセス禁止法の冤罪をかけられる](https://ja.wikipedia.org/wiki/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E9%81%A0%E9%9A%94%E6%93%8D%E4%BD%9C%E4%BA%8B%E4%BB%B6)というめんどくさい事になる可能性もあります。インターネットから疎通できるサーバーを使う場合にはセキュリティ対策には十分に気を使いましょう。
 
 ## システムアーキテクチャ
@@ -71,7 +71,7 @@
 Androidアプリでデータを処理し、パイロットのために計器データや地図を表示します。  
 そして、同時に地上やボート上にいる設計者などが機体のデータを確認するために、サーバーに位置情報や対気速度や回転数データを送信します。  
 送信されたデータはサーバーのMySQLと呼ばれるデータベースにインポートされ、PythonスクリプトによKMLとcsv形式で出力されArcGISがそれらのファイルを参照することにより、Web上で地図やグラフの形で確認することが出来ます。
-![全体の構成](https://github.com/TeamBirdmanTrial/FlightDisplay.arajin.S270/blob/master/doc/img/fddesign.jpg)
+![全体の構成](https://github.com/Sakiyama-Rintaro/FlightDisplay.S290/blob/master/doc/img/fddesign.jpg)
 ### Androidアプリ
 <img src="https://github.com/TeamBirdmanTrial/FlightDisplay.arajin.S270/blob/master/doc/img/Androidimage.jpg" title="android" width="250px">
 グラフはいくらでも追加できるような仕組みで実装しているので、速度や高度を想定していますが、回転数等も取得出来るのであれば、表示するようにできます。  
@@ -81,17 +81,17 @@ Androidアプリでデータを処理し、パイロットのために計器デ�
 
 ### サーバー
 #### DB
-<img src="https://github.com/TeamBirdmanTrial/FlightDisplay.arajin.S270/blob/master/doc/img/Sqlimage.png" title="sql" width="250px">
+<img src="https://github.com/Sakiyama-Rintaro/FlightDisplay.S290/blob/master/doc/img/Sqlimage.png" title="sql" width="250px">
 このようにDBに記録されていきます。
 
 
 #### 転送
-<img src="https://github.com/TeamBirdmanTrial/FlightDisplay.arajin.S270/blob/master/doc/img/Transimage.png" title="transfer" width="250px">
+<img src="https://github.com/Sakiyama-Rintaro/FlightDisplay.S290/blob/master/doc/img/Transimage.png" title="transfer" width="250px">
 DBから抽出してArcGIS Onlineへ転送します
 
 ### Webアプリ
 
-<img src="https://github.com/TeamBirdmanTrial/FlightDisplay.arajin.S270/blob/master/doc/img/Webimage.png" title="web" width="250px">
+<img src="https://github.com/Sakiyama-Rintaro/FlightDisplay.S290/blob/master/doc/img/Webimage.png" title="web" width="250px">
 数秒に一度更新されます。
 自前のWebサイトでコードを書けば1秒間隔とかでも更新することが出来ます。
 
