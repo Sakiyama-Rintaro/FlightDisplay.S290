@@ -1,6 +1,4 @@
-<div align="center">
-    <img src="https://github.com/user-attachments/assets/68660c8d-c4d9-4e0b-9aec-190955e87da9" title="s-290logo" width="750px">
-</div>
+![IMG_0753](https://github.com/user-attachments/assets/68660c8d-c4d9-4e0b-9aec-190955e87da9)
 
 # S-290フライトディスプレイ備忘録 兼 引き継ぎ資料
 
